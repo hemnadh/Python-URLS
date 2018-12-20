@@ -5,10 +5,80 @@ https://www.goodreads.com/book/show/22800567-fluent-python
 
 Fluent Python GitHub repo https://github.com/fluentpython 
 
+
 What books, in what order, should I read to learn Python?  
     https://www.quora.com/What-books-in-what-order-should-I-read-to-learn-Python 
     Google for Education Python course:    https://developers.google.com/edu/python/    https://developers.google.com/
     Python Setup | Python Video Tutorial | Learn Python | Python3 & Python 3 Training   https://www.youtube.com/watch?v=Ue2fw1RooHA&feature=youtu.be 
     Python Programming for Beginners | Python Tutorial for Beginners | Python Tutorial & Examples https://www.youtube.com/watch?v=e9p0_NB3WrM&feature=youtu.be 
     Python Data Visualization | Python for Beginners | Programming Language |Python Tutorial|Intellipaat https://www.youtube.com/watch?v=XmfgjNoY9PQ&feature=youtu.be
+
+
+
+  ----------------------------------------------------------------------------------------------------------------------------------------
+What's next after Python? I have been learning Python for about 7 - 8 months now and have made multiple projects. Now I want to learn a new language, but I don't know what to choose. Any tips? 
+      https://www.quora.com/Whats-next-after-Python-I-have-been-learning-Python-for-about-7-8-months-now-and-have-made-multiple-projects-Now-I-want-to-learn-a-new-language-but-I-dont-know-what-to-choose-Any-tips
+        Languages are just tools. It only makes sense to learn them if you have an application.
+        
+        Python is slow. If your application is not waiting on IO then python is a poor choice. 
+          -- Its single threaded by design. Python has a GIL, which means that if you add more threads your code will get slower, even on an multicore machine.
+  
+  
+        The speed problem can be solved by choosing a    statically compiled language like      <--  C / C++ / Java. -->
+        Java is normally about    <<<<  *** half the speed of good C code   ****   >>>   and continues to have garbage collection and objects so it should be an easy transition for you. 
+        Minecraft was written in Java. It allowed Notch to get to market quickly and on every device almost instantly. 
+        Java is also    ✔✔   incredibly marketable.  <<<<----
+        
+                ----------------------------------------------------------
+       ✔✔ Mobile games?  Then do some Android/Java or iOS/Objective-C.  
+       ✔✔✔✔  Desktop games?  Pick a major game engine like Unreal or Unity 
+       Want to build a   ✔✔ Browser based game?  HTML/CSS/Javascript.  
+       ✔✔  Flash games?  Learn to drive a      corkscrew into your own kneecap.  
+       
+                    ----------------------------------------------------------
+       ✔✔  Do you just want to be a better programmer?  Then try **   LISP or **** Haskell for some    functional thinking, or
+       ✔✔  C/C++ to learn more about how things work 'closer to the metal'.  Or
+       ✔✔   go with      Java or C#           to learn about      scale and    ***   enterprise development
+       
+----------------------------------------------------------
+
+   -->>   Java has excellent support for concurrency too, in that it has monitors built into the language as well as libraries like Akka
+                which allow you to choose how your threads communicate.
+                
+----------------------------------------------------------    
+
+ -->> ----   learn a functional language. Getting your head around OCaml / Clojure / Haskell early will reduce the time 
+                 it takes you to learn these vital techniques later in your career. 
+---------------------------------------------------------- 
+    
+    ---->>>>>      If you want to build skills for EMPLOYment:
+SQL - gotta get data out of databases.
+HIVE, Pig Latin - very trendy right now with Hadoop. You can build your own Hadoop cluster on your computer using virtual machines.
+Java - it's everywhere
+C++ ; also everywhere. You could start with C. Good for high performance.
+FORTRAN  - still around, especially in the sciences. Good to know some FORTRAN, as often old algorithms are coded in it.
+
+---------------------------------------------------------- 
+If Python performance is an issue for you, then use   
+    *** ✔✔  Cython  - a superset of the Python programming language designed 
+                    to achieve C-like performance with code that is written mostly in Python. 
+     It combines the ease of Python with the speed of native code. What’s more, 
+        Python is outstanding for building game design tools that simplify many tasks,
+for example level design or creating dialog trees.
+----------------------------------------------------------
+Development with Python - What Kind of Applications Can You Build in Python         https://www.netguru.co/blog/development-with-python-what-kind-of-applications-can-you-build-in-python
+                                                                                https://www.google.com/search?q=what+all+can+be+comined+with+python+to+make+a+great+application&rlz=1C1SQJL_enIN806IN806&oq=what+all+can+be+comined+with+python+to+make+a+great+application&aqs=chrome..69i57.18358j0j7&sourceid=chrome&ie=UTF-8
+    Web development/software development 
+    Audio/Video applications
+    Console applications
+    Game development
+    System administration applications
+    Machine learning
+    
+            With Python, you can find a library for basically anything you could imagine.
+            What’s more, those libraries are developed by some of the best IT guys in the world.
+            If add versatility, ease of use, and flexibility, you will understand why it’s so good for development.
+            What’s more, development with Python is fast, so everybody can save time and money. 
+            There are plenty of reasons to use Python for your next application.
+
 
